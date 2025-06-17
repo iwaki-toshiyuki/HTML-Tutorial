@@ -1,3 +1,5 @@
+
+<!-- 模範解答-->
 <!DOCTYPE html>
 <html lang="ja">
   <head>
@@ -7,8 +9,10 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <!-- headerに変更 -->
     <header class="header">
       <h1>サンプルサイト</h1>
+      <!-- navタグを使用 -->
       <nav class="global-nav">
         <ul>
           <li><a href="#">トップページ</a></li>
@@ -18,17 +22,25 @@
         </ul>
       </nav>
     </header>
-      <main>
-        <article>
+
+    <!-- mainタグを使用 -->
+    <main class="container">
+      <!-- articleタグを使用 -->
+      <article class="main">
+        <!-- sectionタグを使用-->
+        <section class="article">
           <h2>ニュース1</h2>
           <p>ここにニュースの内容が表示されます。</p>
-        </article>
-        <article>
+        </section>
+        <!-- sectionタグを使用-->
+        <section class="article">
           <h2>ニュース2</h2>
           <p>ここにニュースの内容が表示されます。</p>
-        </article>
-      </main>
-      <aside>
+        </section>
+      </article>
+
+      <!-- asideタグを使用 -->
+      <aside class="related">
         <h2>おすすめリンク</h2>
         <ul>
           <li><a href="#">リンクA</a></li>
@@ -36,7 +48,10 @@
           <li><a href="#">リンクC</a></li>
         </ul>
       </aside>
-    <footer>
+    </main>
+
+    <!-- footerに変更 -->
+    <footer class="footer">
       <p>&copy; 2024 サンプルサイト. All rights reserved.</p>
     </footer>
   </body>
